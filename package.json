@@ -9,6 +9,7 @@
   "repository": {
   "homepage": "https://github.com/MutualDex/pancake-toolkit",
   "scripts": {
+    "start": "npm run build -- --watch",
     "build": "lerna run build",
     "test": "lerna run test",
     "lint": "lerna run lint",
